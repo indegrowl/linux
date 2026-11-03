@@ -36,7 +36,7 @@
 		key-assist {
 			gpios = <&tlmm 71 GPIO_ACTIVE_LOW>;
 			label = "Assistant";
-			linux,code = <KEY_LEFTMETA>;
+			linux,code = <KEY_PROG1>;
 		};
 
 		key-volume-up {
