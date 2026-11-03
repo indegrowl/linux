@@ -1,8 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Novatek NT37706A BOE AMOLED panel (Nothing Phone (4a)), DSC video mode.
- * Init sequence and timings from the vendor device tree; structure follows
- * panel-novatek-nt37705.c.
+ * Init sequence and timings from the vendor device tree
+ * (dsi-panel-nt37706a-dsc-fhd-plus-120hz-vid-boe.dtsi in Nothing's kernel
+ * source release); structure follows panel-novatek-nt37705.c:
+ *
+ * Copyright (c) 2026 Luca Weiss <luca.weiss@fairphone.com>
  */
 
 #include <linux/backlight.h>
